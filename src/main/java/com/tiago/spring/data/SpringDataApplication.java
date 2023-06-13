@@ -12,7 +12,6 @@ import java.util.Scanner;
 public class SpringDataApplication implements CommandLineRunner {
 
 	private final CrudCargoService cargoService;
-
 	private Boolean system = true;
 
 	public SpringDataApplication(CrudCargoService cargoService) {
